@@ -1,0 +1,36 @@
+body
+{
+    background: url(space-saving5.jpg);
+    background-size: cover;
+}
+a
+{
+    color: aliceblue;
+    font-family:Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+a:hover{
+	cursor: pointer;
+	color: #e8b0e8;
+}
+.cong
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    height: 200px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 240px;
+	border-radius: 25px;
+	font-style: italic;
+}
+h2
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+span{
+	color: #e8b0e8;
+	font-style:normal;
+}

@@ -1,0 +1,279 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #e8b0e8;
+    /* background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%); */
+    background: linear-gradient(-120deg, #efd5ff 0%, #515ada 100%);
+    /* background: #e494e4;  */
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+    /* url(space-saving5.jpg); */
+    /* background-size: cover; */
+}
+
+/* rwo start here */
+.row {
+    display: block;
+
+
+}
+
+.cloumn-container {
+    padding-left: 0px;
+
+
+}
+
+.column {
+    float: left;
+    /* width: 50%; */
+    text-align: center;
+    flex: 50%;
+
+    /* margin-right: 80px; */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.form-message {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-error {
+    color: red;
+}
+
+.form-success {
+    color: green;
+}
+
+.input-error {
+    box-shadow: 0 0 5px red;
+}
+
+
+
+.sign-up-container {
+    /* width: 80%;
+    height: auto; */
+    /* margin: 0 auto; */
+}
+
+#signup-btn[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* ends here */
+.signup {
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 70%;
+    /* margin:  auto; */
+    margin-top: 80px;
+    height: auto;
+    /* margin-left: 180px; */
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+form {
+    /* width: 240px; */
+    /* text-align: center; */
+
+}
+
+h2 {
+
+    margin-top: 0px;
+    color: #e8b0e8;
+}
+
+/* a:hover {
+    color: #EE82EE;
+} */
+
+input {
+
+    width: 250px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border: 0.5px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    border: none;
+    width: 190px;
+    background: #e8b0e8;
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #EE82EE;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: blink;
+}
+
+a:hover {
+    color: #EE82EE;
+}
+
+h2 {
+    color: #000;
+
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+    /* Firefox */
+}
+
+/* #msg {
+    visibility: hidden;
+    min-width: 350px;
+    background-color: #e8b0e8;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 37.5%;
+    top: 30px;
+    font-size: 17px;
+    margin-right: 50px;
+    border-radius: 9px;
+} */
+
+#msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+
+
+/* span .error_form {
+    top: 2px;
+    color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+} */
+
+/* .container input:focus~label,
+.container input:valid~label {
+    left: 0;
+    top: -10px;
+    color: rgb(66, 133, 244);
+    font-size: 12px;
+    font-weight: bold;
+} */
+
+/*  */
+
+.form-message {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-error {
+    color: red;
+}
+
+.signup .form-success {
+    color: green;
+}
+
+.signup p {
+    color: green;
+}
+
+.signup .input-error {
+    box-shadow: 0 0 5px red;
+}

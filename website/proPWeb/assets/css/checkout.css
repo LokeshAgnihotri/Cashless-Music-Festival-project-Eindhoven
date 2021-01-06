@@ -1,0 +1,229 @@
+body {
+    /* background: linear-gradient(-120deg, #efd5ff 0%, #515ada 100%); */
+    background: #262626;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #e8b0e8;
+
+}
+
+.flex-container .day {
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    background-color: white;
+    margin: 20px;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    box-shadow: 0px 0px 20px background;
+    /* Link */
+}
+
+.flex-container .day .dayContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.flex-container .day .dayContent .icon {
+    color: #8293ff;
+    /* color: gray; */
+    font-size: 48px;
+    padding: 15px;
+}
+
+.flex-container .day .dayContent .title {
+    font-size: 24px;
+    /* color: #8293ff; */
+    color: #e8b0e8;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.flex-container .day .dayContent .desc {
+    /* color: #8293ff; */
+    color: whitesmoke;
+    font-size: 15px;
+    height: 20%;
+}
+
+.flex-container .day a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.flex-container .day:hover {
+    /* background: linear-gradient(130deg, #e18ff1 0%, #8293ff 100%); */
+    /* box-shadow: none;
+  cursor: pointer; */
+}
+
+.container .day:hover .icon,
+.container .day:hover .title,
+.container .day:hover .desc {
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+/* ends  */
+
+.hidden {
+    display: none;
+}
+
+.eventHidden {
+    display: none;
+}
+
+
+.flex-container div {
+    z-index: 2;
+}
+
+.day h3 {
+    text-align: center;
+}
+
+
+.day {
+
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #e08ef0;
+    flex-basis: 32%;
+}
+
+
+
+@media (min-width:900px) {
+
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}
+
+
+@media (min-width:900px) {
+
+    .mainbutton-container {
+        display: flex;
+        /* justify-content: space-around; */
+        background-color: #e08ef0;
+        justify-content: space-evenly;
+
+    }
+
+    .buttonclick h1 {
+        margin: auto;
+    }
+}
+
+.day:nth-child(1) {
+
+    background-color: transparent;
+    height: 300px;
+
+
+}
+
+.day:nth-child(1):hover {}
+
+.day:nth-child(2) {
+
+    background-color: transparent;
+
+}
+
+/* .day:nth-child(3) {
+
+  background-color: transparent;
+  height: auto;
+} */
+
+
+
+
+input {
+
+    width: 90%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border: 0.5px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    border: none;
+    width: 80%;
+    background: #e8b0e8;
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #EE82EE;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: blink;
+}
+
+a:hover {
+    color: #EE82EE;
+}
+
+h2 {
+    color: #000;
+
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+    /* Firefox */
+}
+
+.flex-container {
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 70%;
+    /* margin:  auto; */
+    margin-top: 80px;
+    height: auto;
+    /* margin-left: 180px; */
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+/* disable button for the payment purpose */
+#signup-btn[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+}

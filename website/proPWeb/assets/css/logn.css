@@ -1,0 +1,107 @@
+ body {
+     font-family: Tahoma, Geneva, sans-serif;
+     color: #e8b0e8;
+     /* background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%); */
+     background: linear-gradient(-120deg, #efd5ff 0%, #515ada 100%);
+     /* background: linear-gradient(200deg, #FDBB2D 0%, #3A1C71 100%); */
+     /* background: url(space-saving5.jpg); */
+     /* background-size: cover; */
+     /* background: url(.img/video/Home_Video.mp4); */
+ }
+
+ #myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+ }
+
+ /* Add some content at the top of the video/page like layer */
+ .content {
+     position: fixed;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.5);
+     color: #f1f1f1;
+     min-height: 100%;
+     right: 0%;
+ }
+
+ .signin {
+     background: rgba(44, 62, 80, 0.7);
+     padding: 40px;
+     width: 350px;
+     margin: auto;
+     margin-top: 13%;
+     height: 400px;
+     margin-left: 180x;
+     border-radius: 25px;
+ }
+
+ form {
+     width: 350px;
+     text-align: center;
+     /*	border-radius: 25px;*/
+ }
+
+ .signin input {
+     width: 320px;
+     text-align: center;
+     background: transparent;
+     /*	opacity: 0.90;*/
+     border: none;
+     border: 0.5px solid #fff;
+     font-family: 'Play', sans-serif;
+     font-size: 16px;
+     font-weight: 200px;
+     padding: 10px 0;
+     transition: border 0.5s;
+     outline: none;
+     color: #fff;
+     border-radius: 10px;
+ }
+
+ .signin input[type=submit] {
+     border: none;
+     width: 220px;
+     background: #e8b0e8;
+     color: white;
+     font-size: 16px;
+     line-height: 25px;
+     padding: 10px 0;
+     border-radius: 15px;
+     cursor: pointer;
+
+ }
+
+ input[type=submit]:hover {
+     color: #fff;
+     background-color: #EE82EE;
+ }
+
+ h2 {
+     color: white;
+
+ }
+
+ a {
+     color: aliceblue;
+     text-decoration: blink;
+ }
+
+ a:hover {
+     color: #EE82EE;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+
+ }
+
+ ::placeholder {
+     color: aliceblue;
+     opacity: 0.8;
+     /* Firefox */
+ }

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #292c2f;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.aboutInfo h1 {
+
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 3rem 0 1.8rem 2rem;
+    /* margin-bottom: 30px; */
+    /* margin-left: 2rem; */
+    font-family: Raleway, arizonia;
+}
+
+.aboutInfo h3,
+h4,
+h5 {
+    /* margin-left: 10px; */
+    font-family: Concert one, Zilla Slab, arizonia;
+    text-transform: uppercase;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+
+
+.wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    background-color: #fff;
+    max-width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ccb9da;
+    grid-row: auto;
+}
+
+@media(max-width:430px) {
+    .wrapper {
+        display: block;
+    }
+}
+
+.text {
+    font-family: Raleway, Roboto, Cabin, Concert One, arizonia, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    /* margin-top: 25px; */
+    text-align: justify;
+    text-justify: inter-word;
+    /* font-weight: 700; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-style: italic; */
+
+}
+
+.about .wrapper {
+    margin-bottom: 50px;
+}
+
+/*  */
+
+.box {
+    background-color: #ccb9da;
+    color: snow;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+}
+
+img {
+    width: 100%;
+    /* min-height: 100%; */
+}
+
+.wrapper {
+    transition: transform 1s;
+}
+
+.wrapper:hover {
+    transform: translateX(-40px);
+}
+
+/* .team h3 {
+    margin-top: 20px;
+    text-align: center;
+} */
